@@ -1,5 +1,5 @@
 {
-  "name": "outl1ne/nova-notes-field",
+  "name": "doorax/nova-notes-field",
   "description": "This Laravel Nova package adds a notes field to Nova's arsenal of fields.",
   "keywords": [
     "laravel",
@@ -27,13 +27,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Outl1ne\\NovaNotesField\\": "src/"
+      "Doorax\\NovaNotesField\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Outl1ne\\NovaNotesField\\NotesFieldServiceProvider"
+        "Doorax\\NovaNotesField\\NotesFieldServiceProvider"
       ]
     }
   },
