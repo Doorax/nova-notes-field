@@ -1,6 +1,6 @@
 <template>
   <div :class="classes">
-    <h3 class="o1-text-gray-600 dark:o1-text-slate-400 o1-mb-4">{{ field.name }}</h3>
+    <h3 class="o1-text-gray-600 dark:o1-text-slate-400 o1-mb-4">{{ field.name }} HOER</h3>
     <NoteInput
       v-if="field.addingNotesEnabled"
       v-model.trim="note"
@@ -38,9 +38,9 @@
 </template>
 
 <script>
+import DeleteNoteConfirmationModal from './DeleteNoteConfirmationModal';
 import Note from './Note';
 import NoteInput from './NoteInput';
-import DeleteNoteConfirmationModal from './DeleteNoteConfirmationModal';
 
 export default {
   components: { Note, NoteInput, DeleteNoteConfirmationModal },
