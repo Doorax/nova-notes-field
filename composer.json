@@ -27,7 +27,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Doorax\\NovaNotesField\\": "src/"
+      "Outl1ne\\NovaNotesField\\": "src/"
     }
   },
   "extra": {
