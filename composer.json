@@ -33,7 +33,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Doorax\\NovaNotesField\\NotesFieldServiceProvider"
+        "Outl1ne\\NovaNotesField\\NotesFieldServiceProvider"
       ]
     }
   },
